@@ -1,0 +1,16 @@
+<div>
+	<!-- Angular TODO: Add filters -->
+
+	<p ng-hide="upcomingEvents.events.length">No current events</p>
+
+    <ul class="upcoming" ng-show="upcomingEvents.events.length">
+        <li ng-repeat="event in upcomingEvents.events | orderBy: event.priority" ng-show="upcomingEvents.isCurrent(event) && event.code">
+            <h2 class="title">{{ event.title }}</h2>
+            <p class="timeText">{{ event.timeText }}</p>
+			<div ng-repeat="paragraph in event.description">
+            	<p class="description">{{ paragraph }}</p>
+			</div>
+            <p class="linkText"><a href="#/event/{{ event.code }}" class="more">more</a></p>
+        </li>
+    </ul>
+</div>

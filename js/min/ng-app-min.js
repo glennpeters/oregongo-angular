@@ -1,0 +1,1 @@
+!function(){var o=angular.module("oregonGoApp",["ngRoute","oregonGoControllers","oregonGoFilters",function(){}]);o.controller("pageCtrl",[function(){this.datum="Frogs Page"}])}();

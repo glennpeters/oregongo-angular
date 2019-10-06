@@ -1,0 +1,16 @@
+
+<div class="go-bucket">
+
+	<h1>Contact</h1>
+
+	<ul class="contacts">
+        <div ng-repeat="contact in contacts" class="contact" ng-show="contact.active && contact.name">
+            <h3 class="name">{{ contact.name }}</h3>
+            <div ng-show="contact.title" class="title">Title: {{ contact.title }}</div>
+            <div ng-show="contact.phone" class="phone">Phone: {{ contact.phone }}</div>
+            <div ng-show="contact.email" class="email">E-mail: <a href="mailto:{{ contact.email }}">{{ contact.email }}</a></div>
+            <div ng-show="contact.note" class="note">Note: {{ contact.note }}</div>
+        </div>
+    </ul>
+
+</div>

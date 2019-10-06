@@ -1,0 +1,56 @@
+[
+    {
+        "id": "glenn",
+        "active": true,
+        "name": "Glenn Peters",
+        "title": "Portland Go Club President, Webmaster",
+        "note": null,
+        "phone": "503 427-8446 (HARTIGO)",
+        "email": "glenn@portlandgo.org"
+    },
+    {
+        "id": "peterfreedman",
+        "active": true,
+        "name": "Peter Freedman",
+        "title": null,
+        "note": "Portland Go Club facilitator; school outreach",
+        "phone": "971-888-9624",
+        "email": "pleefreedman1@comcast.net"
+    },
+    {
+        "id": "bobomalley",
+        "active": true,
+        "name": "Robert O'Malley",
+        "title": null,
+        "note": "Corvallis Go Club",
+        "phone": "(541) 929-5468",
+        "email": "omalleyr@science.oregonstate.edu"
+    },
+    {
+        "id": "peterdrake",
+        "active": true,
+        "name": "Peter Drake",
+        "title": null,
+        "note": "Lewis & Clark College Go Club",
+        "phone": "(503) 768-7539",
+        "email": "drake@lclark.edu"
+    },
+    {
+        "id": "fritz",
+        "active": true,
+        "title": null,
+        "note": null,
+        "name": "Fritz Balwit",
+        "phone": "(503) 880-4246",
+        "email": "fritz.balwit@gmail.com"
+    },
+    {
+        "id": "guozhong",
+        "active": false,
+        "name": "Guozhong Zhuang",
+        "title": null,
+        "note": "Good Time Chinese School",
+        "phone": "503 533-0642",
+        "email": "guozhong.zhuang@gmail.com"
+    }
+]

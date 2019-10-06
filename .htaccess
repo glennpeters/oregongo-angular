@@ -1,0 +1,56 @@
+# Prevent unwanted directory browsing
+Options -Indexes
+
+# q.v. http://wiki.dreamhost.com/Creating_custom_error_pages
+# http://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+
+#RewriteEngine On
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule (.*) /404.php [L]
+
+# Need
+# error.php
+# /error/405/index.php
+# /error/500/index.html
+# /error-503.php
+# error-deal.php
+
+ErrorDocument 400 /error.php?code=400
+ErrorDocument 402 /error.php?code=402
+ErrorDocument 403 /error.php?code=403
+
+#ErrorDocument 403 /error/403/index.html
+ErrorDocument 404 /error.php?code=404
+
+#ErrorDocument 405 /error/405/index.php
+ErrorDocument 406 /error.php?code=406
+ErrorDocument 407 /error.php?code=407
+ErrorDocument 408 /error.php?code=408
+ErrorDocument 409 /error.php?code=409
+ErrorDocument 410 /error.php?code=410
+ErrorDocument 411 /error.php?code=411
+ErrorDocument 412 /error.php?code=412
+ErrorDocument 413 /error.php?code=413
+ErrorDocument 414 /error.php?code=414
+ErrorDocument 415 /error.php?code=415
+ErrorDocument 416 /error.php?code=416
+ErrorDocument 417 /error.php?code=417
+ErrorDocument 418 /error.php?code=418
+ErrorDocument 422 /error.php?code=422
+ErrorDocument 423 /error.php?code=423
+ErrorDocument 424 /error.php?code=424
+ErrorDocument 425 /error.php?code=425
+ErrorDocument 426 /error.php?code=426
+
+#ErrorDocument 500 /error/500/index.html
+ErrorDocument 501 /error.php?code=501
+ErrorDocument 502 /error.php?code=502
+#ErrorDocument 503 /error-503.php
+ErrorDocument 504 /error.php?code=504
+ErrorDocument 505 /error.php?code=505
+ErrorDocument 506 /error.php?code=506
+ErrorDocument 507 /error.php?code=507
+ErrorDocument 508 /error.php?code=508
+ErrorDocument 509 /error.php?code=509
+ErrorDocument 510 /error.php?code=510

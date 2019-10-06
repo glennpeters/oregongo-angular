@@ -1,0 +1,31 @@
+
+		<div class="go-bucket">
+
+			<h1>Clubs and Meetings</h1>
+
+			<div class="clubs">
+		        <div ng-repeat="club in clubs" ng-show="club.active">
+					<h3>{{ club.name }}</h3>
+
+					<div class="meeting" ng-repeat="meeting in club.meetings" ng-show="meeting.active">
+
+						<div class="name">{{ meeting.name }}</div>
+
+						<div ng-show="meeting.time" class="time">{{ meeting.time }}</div>
+
+						<div ng-show="meeting.note">{{ meeting.note }}</div>
+						<div ng-show="meeting.address1">{{ meeting.address1 }}</div>
+						<div ng-show="meeting.address2">{{ meeting.address2 }}</div>
+
+						<div>
+							<a ng-show="meeting.website" href="{{ meeting.website }}" target="_blank"> venue url</a>
+							<b ng-show="meeting.website && meeting.map"> | </b>
+							<a ng-show="meeting.map" href="{{ meeting.map }}" target="_blank">map</a>
+						</div>
+
+						<!-- <div>TODO: altContact {{ meeting.altContact }}</div> -->
+			        </div>
+		        </div>
+		    </div>
+
+		</div>

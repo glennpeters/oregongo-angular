@@ -1,0 +1,137 @@
+[
+    {
+        "key": "portlandgo",
+        "active": true,
+        "name": "Portland Go Club",
+        "clubContact": "glenn",
+        "defaultNote": "Note: Boards are available at all Portland meeting locations.",
+        "meetings": [
+            {
+                "key": "powells",
+                "active": true,
+                "name": "World Cup Coffee and Tea / Powell's Bookstore",
+                "note": null,
+                "url": null,
+                "website": "http://www.powells.com/locations/powells-city-of-books",
+                "address1": "10th and West Burnside",
+                "address2": "Portland, Oregon",
+                "time": "Tuesdays 6 PM - 10 PM",
+                "map": "https://goo.gl/maps/DpberdFe2fH2",
+                "altContact": "glenn"
+            },
+            {
+                "key": "luckylab",
+                "active": true,
+                "name": "Lucky Labrador Brew Pub",
+                "note": null,
+                "url": null,
+                "website": "http://luckylab.com/hawthorne-brew-pub/",
+                "address1": "915 SE Hawthorne Blvd.",
+                "address2": "",
+                "map": "https://goo.gl/maps/H9NYDh7fDSz",
+                "time": "Sundays 1 - 4 PM",
+                "altContact": "glenn"
+            }
+            ,{
+                "key": "stpaul",
+                "active": false,
+                "name": "St. Paul's Lutheran Church",
+                "note": "Children and new players are particularly welcome to this gathering",
+                "url": null,
+                "address1": "3880 SE Brooklyn Street",
+                "address2": "",
+                "map": "https://goo.gl/maps/ECjGcRhxjF22",
+                "time": "Saturdays 1 - 4 PM",
+                "altContact": "peterfreedman"
+            }
+        ]
+    },
+	{
+        "key": "corvallis",
+        "active": true,
+        "name": "Corvallis Go Club",
+        "clubContact": "bobomalley",
+        "defaultNote": "",
+        "meetings": [
+            {
+                "key": "newmorning",
+                "active": true,
+                "name": "New Morning Bakery",
+                "note": null,
+                "url": "http://www.newmorningbakery.com/",
+                "address1": "New Morning Bakery on 2nd Ave.",
+                "address2": "Corvallis, OR",
+                "time": "Wednesdays from 5-9 PM",
+                "map": "https://goo.gl/maps/jQzgdRZjmgy",
+                "mapembed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2842.6778387367635!2d-123.26242708489701!3d44.56269787910058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54c040ebb44c2149%3A0xbe1834948cad1d93!2sNew+Morning+Bakery!5e0!3m2!1sen!2sus!4v1482809720513",
+                "altContact": null
+            }
+        ]
+    },
+	{
+        "key": "eugene",
+        "active": true,
+        "name": "Eugene Go Club",
+        "clubContact": "roberttirak",
+        "defaultNote": "",
+        "meetings": [
+            {
+                "key": "funagain",
+                "active": true,
+                "name": "FunAgain Games",
+                "note": null,
+                "url": "http://www.eugenego.org/",
+                "address1": "13th and Willamette",
+                "address2": "Eugene, OR",
+                "time": "Sundays at 12 PM",
+                "map": "https://goo.gl/maps/qw2PPH5jaqM2",
+                "mapembed": "",
+                "altContact": null
+            }
+        ]
+    },
+    {
+        "key": "bethany",
+        "active": false,
+        "name": "Bethany Wei Qi Club",
+        "clubContact": "guozhong",
+        "defaultNote": "",
+        "meetings": [
+            {
+                "key": "goodtime",
+                "active": false,
+                "name": "GoodTime Chinese School",
+                "note": null,
+                "url": "http://goodtimechineseschool.org",
+                "address1": "15285 NW Central Drive, Portland, OR 97229",
+                "address2": "Suite 201",
+                "time": "Fridays 6:45 - 9:30 PM",
+                "map": "",
+                "mapembed": "",
+                "altContact": "guozhong"
+            }
+        ]
+    },
+	{
+        "key": "lewisclark",
+        "active": false,
+        "name": "Lewis & Clark Go Club",
+        "clubContact": "peterdrake",
+        "defaultNote": "",
+        "meetings": [
+            {
+                "key": "newmorning",
+                "active": true,
+                "name": "Lewis & Clark College Go Club",
+                "time": "7-10 PM Thursdays (No meetings when school is out)",
+                "note": null,
+                "url": "https://www.lclark.edu/about/facilities_and_resources/dining/",
+                "address1": "615 SW Palatine Hill Rd",
+                "address2": "Portland, OR 97219",
+                "map": "https://goo.gl/maps/HkYUTiSx6Tp",
+                "mapembed": null,
+                "altContact": null
+            }
+        ]
+    }
+]

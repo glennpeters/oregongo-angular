@@ -1,0 +1,428 @@
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,600,700,800);*/
+/*@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic);*/
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,800italic,400,700,300,800");
+
+$font-stack: 		"Open Sans", Arial, Helvetica, sans-serif;
+$white:	 			#fff;
+$light-grey:	 	#999;
+$dark-grey:	 		#222;
+$dark-red:			#8B160C;
+$sequential-black: 	#020304;	// Blackish
+$ruby-tuesday: 		#541F14;	// Ruddy red
+$reclining-nude: 	#938172;	// Brownish grey
+$nylon-stockings: 	#CC9E61;	// Medium tan
+$pit-pony: 			#626266;	// Dark grey
+
+/*
+	http://www.colourlovers.com/palette/34448/2_Kool_for_Skool
+
+	Sequential Black: #020304, rgb(2,3,4);
+	Ruby Tuesday: #541F14, rgb(84,31,20);
+	Reclining Nude II: #938172, rgb(147,129,114);
+	Nylon Stockings: #CC9E61 rgb(204,158,97);
+	Pit Pony: #626266, rgb(98,98,102);
+
+	Docs: http://getbootstrap.com/css/
+
+	https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries
+
+	http://www.brankic1979.com/icons/
+*/
+
+body {
+	font-family: $font-stack;
+	font-weight: 300;
+
+	background-color: $dark-grey;
+	color: $light-grey;
+
+	background: url('/img/jade_on_goban_trans_bg.png') no-repeat;
+	background: url('/img/jade_goban_huge.jpg') no-repeat;
+
+	background-position: 50% 0px;
+	background-size: cover;
+	background-attachment: fixed;
+
+	padding-bottom: 0;
+
+	a {
+		text-decoration: none;
+		background: 0 0;
+	}
+
+	.contentBox {
+		min-height: 500px;
+		// padding-bottom: 4em;
+		// margin-bottom: 100px;
+
+		// background: url(/img/bare_goban_bg.jpg) no-repeat;
+		// background: url(/img/jade_on_goban_bg.png) no-repeat;
+		// background: url(/img/jade_on_goban_trans_bg.png) no-repeat;
+		// background: url(/img/bare_goban_tall_bg.png) no-repeat;
+		// background-size: cover;
+		// background-position: 50% 0px;
+		// background-size: cover auto;
+		// background-size: auto;
+
+		// &.tall {
+		// 	background: url(/img/bare_goban_tall_bg.png) no-repeat;
+
+		// }
+	}
+
+	hr {
+		border-top: 1px solid $light-grey;
+	}
+}
+
+.navbar-inverse {
+
+	.navbar-toggle {
+		background-color: transparent;
+		background-image: none;
+		// border: 1px solid rgba(255,255,255,.25);
+		border: 1px solid #aaa;
+		border-radius: 4px;
+
+		.icon-bar {
+			/*background-color: #938172;*/
+			/*background-color: rgba(0,0,0,.25);*/
+			background-color: #aaa;
+		}
+
+		&:hover {
+			border-color: #fff;
+
+			.icon-bar {
+				background-color: #fff;
+			}
+		}
+	}
+
+	.navbar-right {
+		margin-top: 14px;
+		margin-bottom: 10px;
+
+		a {
+			display: inline-block;
+			margin-left: 1.2em;
+			cursor: pointer;
+			text-decoration: none;
+
+			&:link,
+			&:visited {
+				color: $light-grey;
+			}
+
+			&:active,
+			&:hover {
+				color: #fff;
+			}
+		}
+
+	}
+}
+
+
+// .jade-bg.tall {
+// 	background: url('/img/jade_on_goban_tall_bg.png') no-repeat;
+// 	background-size: cover;
+// 	min-height: 500px;
+// }
+
+.go-bucket  {
+	background-color: rgba(147,129,114,0.95);
+	border: 4px solid #938172;
+	padding: 1em;
+	margin: 1em 1em;
+	color: #020304;
+	font-weight: 400;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	min-height: 200px;
+
+	h1,
+	h2,
+	h3 {
+		margin: 0 0 0.4em 0;
+		padding: 0;
+		font-weight: 300;
+		letter-spacing: 1px;
+		font-size: 2.2em;
+		// color: $ruby-tuesday;
+		color: $sequential-black;
+		// text-transform: uppercase;
+
+		-moz-border-radius: 0.5em;
+		-webkit-border-radius: 0.5em;
+		border-radius: 0.5em;
+	}
+
+	h1 {
+		font-size: 2.8rem;
+		background: #541F14;
+		color: white;
+		padding: 0.3em 0.4em;
+  	}
+
+	h2 {
+		font-size: 1.8em;
+	}
+
+	h3 {
+		font-size: 1.5em;
+		text-transform: none;
+		font-weight: 400;
+		margin-top: 1.2em;
+		border-bottom: 1px solid $ruby-tuesday;
+		padding-bottom: 0.2em;
+		padding-left: 0.5em;
+	}
+
+	h2 + ul,
+	h3 + ul {
+		margin-bottom: 1.6em;
+	}
+
+	p {
+		margin: 1em 1em 10px;
+	}
+
+	a {
+		text-decoration: none;
+		font-weight: 600;
+		color: $ruby-tuesday;
+		cursor: pointer;
+
+		&:link,
+		&:visited {
+			color: $ruby-tuesday;
+			// text-shadow: 1px 1px 1px $pit-pony;
+		}
+
+		&:hover,
+		&:active {
+			// color: $nylon-stockings;
+			color: $dark-red;
+			text-decoration: underline;
+			// text-shadow: 1px 1px 1px $ruby-tuesday;
+		}
+	}
+
+	a.calendar {
+		display: block;
+		padding-left: 20px;
+		margin-top: 0.6em;
+		padding-top: 0.4em;
+		border: none;
+		border-top: 1px solid #541F14;
+	}
+
+	pre {
+		font-family: $font-stack;
+		background-color: transparent;
+		border: none;
+		color: #020304;
+	}
+
+	ul.submenu {
+		list-style: none;
+		font-weight: 400;
+		margin: 1em;
+		margin-bottom: 1.8em;
+		padding: 0;
+
+		li {
+			display: inline-block;
+
+			a:link,
+			a:visited {
+				font-weight: 400;
+				padding: 0.2em 0.6em;
+				margin: 0em 0.5em;
+
+				-moz-border-radius: 0.5em;
+				-webkit-border-radius: 0.5em;
+				border-radius: 0.5em;
+				background-color: white;
+				color: $sequential-black;
+			}
+
+			a:hover,
+			a:active {
+				background-color: $ruby-tuesday;
+				color: white;
+			}
+
+			a.active {
+				background-color: $sequential-black;
+				color: $pit-pony;
+				cursor: default;
+			}
+		}
+	}
+
+	&.clubspage {
+		li {
+			margin-bottom: 1.4em;
+		}
+	}
+}
+
+
+
+.accordion {
+
+	// background: url('/img/icons/brankic1979-icon-set.png'); // no-repeat 43px 424px;
+
+	.accordion-heading {
+		margin: 0.5em;
+	}
+
+	.accordion-body {
+		margin-left: 1.8em;
+		margin-bottom: 1.8em;
+	}
+
+	.accordion-inner {
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+
+	a.accordion-toggle {
+		padding-left: 20px;
+		// background-image: url(/img/icons/brankic1979-icon-set.png);
+		background-position: 0 0;
+		background-repeat: no-repeat;
+		background-position: 43px 42px;
+
+	}
+
+	a.accordion-toggle.collapsed {
+		background-position: 43px 42px;
+	}
+}
+
+
+
+.upcoming {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+	li {
+		margin-bottom: 1em;
+	}
+
+	h2 {
+		text-decoration: none;
+		border-bottom: 1px solid #541F14;
+		font-weight: 400;
+		font-size: 14px;
+		padding: 0.3em 0.4em 0.3em 0.6em;
+		margin: 0 0 0.3em 0;
+		background-color: #541F14;
+		display: block;
+		-moz-border-radius: 0.5em;
+		-webkit-border-radius: 0.5em;
+		border-radius: 0.5em;
+
+		a:link,
+		a:visited,
+		a:active,
+		a:hover {
+			color: #fff;
+			font-weight: 300;
+		}
+	}
+
+	p {
+		margin-top: 0.2em;
+		margin-bottom: 1em;
+
+		&.timeText {
+			font-weight: 600;
+			margin-top: 0.6em;
+			margin-bottom: 0em;
+		}
+	}
+
+	p.linkText {
+		border-top: dotted $ruby-tuesday 1px;
+		margin-top: 0em;
+
+		a.more {
+			font-weight: 400;
+			text-align: right;
+			display: block;
+		}
+	}
+
+}
+
+.calendar-wrapper {
+	width: 100%;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	border-radius: 0.5em;
+	padding: 0.5em;
+	background-color: #fff;
+
+	& > iframe {
+		border-width: 0;
+		width: 100%;
+	}
+}
+
+.col-md-10.col-md-offset-1 {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+
+.footer-wrapper {
+	// position: fixed;
+	background-color: #333;
+	background-color: rgba(39, 33, 21, 0.9);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+footer {
+	color: $light-grey;
+	padding: 1.2em 1.2em;
+	line-height: 1;
+
+	p {
+		margin: 0;
+	}
+}
+
+
+/* =========== Responsive / Mobile ==================== */
+
+@media (max-width: 768px) {
+	.navbar-inverse {
+		.navbar-right {
+			a {
+				display: block;
+				margin-left: 1.2em;
+				display: block;
+				font-size: 2em;
+				line-height: 1.8;
+			}
+		}
+	}
+}
+
+
+@media (max-width: 500px) {
+}

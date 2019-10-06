@@ -1,0 +1,148 @@
+[
+    {
+        "title":"2019 Oregon State Go Championship",
+        "priority": 1,
+        "code":"pdx-tournament-2019",
+        "timeText":"September 21-22, 2019",
+        "startDate":"2019-01-01",
+        "endDate":"2019-09-23",
+        "description": [
+            "state championship tournament in the beautiful Portland Japanese Garden."
+        ],
+        "linkText":"more"
+    },
+    {
+        "title":"2018 Portland Go Tournament",
+        "priority": 1,
+        "code":"pdx-tournament-2018",
+        "timeText":"Winter 2018",
+        "startDate":"2018-01-01",
+        "endDate":"2018-01-15",
+        "description": [
+            "The largest and longest continuous running tournament in Oregon."
+        ],
+        "linkText":"more"
+    },
+    {
+        "title":"The Surrounding Game (movie)",
+        "priority": 2,
+        "code":null,
+        "timeText":"Saturday, Jan 13th 7:30 PM",
+        "startDate":"2018-01-01",
+        "endDate":"2018-01-15",
+        "description": [
+            "Screening at Documentary Film Center, corner of NE Williams and Tillamook"
+        ],
+        "linkText":null
+    },
+    {
+        "title":"The Surrounding Game (movie)",
+        "priority": 3,
+        "code":null,
+        "timeText":"Sunday, Jan 14th 7:30 PM",
+        "startDate":"2018-01-01",
+        "endDate":"2018-01-15",
+        "description": [
+            "Screening at Documentary Film Center, corner of NE Williams and Tillamook"
+        ],
+        "linkText":null
+    },
+    {
+        "title":"2018 Mochitsuki",
+        "priority": 1,
+        "timeText":"Sunday, Jan. 28th 2018",
+        "code":"mochitsuki-2018",
+        "startDate":"2018-01-01",
+        "endDate":"2018-01-29",
+        "description": [
+            "Mochitsuki is the Japanese New Year celebration.  Members of the Portland Go Club will be presenting and playing games."
+        ],
+        "linkText":"more"
+    },
+    {
+        "title":"2017 Mochitsuki",
+        "priority": 9,
+        "timeText":"Sunday, Jan. 29th 2017",
+        "code":"mochitsuki-2017",
+        "startDate":"2017-01-01",
+        "endDate":"2017-02-01",
+        "description": [
+            "Mochitsuki is the Japanese New Year celebration.  Members of the Portland Go Club will be presenting and playing games."
+        ],
+        "linkText":"more"
+    },
+    {
+        "title":"2017 Pro Workshop: Yilun Yang",
+        "priority": 2,
+        "timeText":"April 29th and 30th, 2017",
+        "code":"yang-2017",
+        "startDate":"2016-12-01",
+        "endDate":"2017-05-14",
+        "description": [
+            "Come prepared to work hard, learn a lot, and improve your game!"
+        ],
+        "linkText":"more"
+    },
+    {
+        "title":"2017 Club Championship",
+        "priority": 3,
+        "code":"clubChampionship2017",
+        "timeText":"End of January 2017 to the end of March",
+        "startDate":"2017-01-01",
+        "endDate": "2017-04-10",
+        "description": [
+            "A flexible-schedule, AGA-rated tournament to earn bragging rights as the Club Champion for 2017.",
+            "Play your games at Powell's on Tuesdays or Lucky Lab on Sundays, or both!"
+        ],
+        "linkText":"more"
+    },
+    {
+        "title":"Teaching at Lan Su Chinese Garden",
+        "priority": 5,
+        "code":"lansu",
+        "timeText":"First Sunday of each month",
+        "startDate":"2016-11-08",
+        "endDate":"3010-04-28",
+        "description": [
+            "Join us as we teach and demonstrate Go (Wei Qi) at the Lan Su Chinese Garden.  First Sunday of each month."
+        ],
+        "linkText":"more"
+    },
+    {
+        "title":"2017 Portland Go Tournament",
+        "priority": 5,
+        "code":"",
+        "timeText":"Fall 2017",
+        "startDate":"2017-04-28",
+        "endDate":"2017-10-30",
+        "description": [
+            "The largest and longest continuous running tournament in Oregon"
+        ],
+        "linkText":"more"
+    },
+    {
+        "title":"2016 Portland Go Tournament",
+        "code":"2016_10_15",
+        "linkText":"more",
+        "timeText":"Fall 2015",
+        "description":"The largest and longest continuous running tournament in Oregon.",
+        "startDate":"2016-04-28",
+        "endDate":"2016-10-30",
+        "description": [
+            "The largest and longest continuous running tournament in Oregon."
+        ],
+        "linkText":"more"
+    },
+    {
+        "title":"2015 Portland Go Tournament",
+        "code":"pdxtournament",
+        "timeText":"Fall 2015",
+        "description":"The largest and longest continuous running tournament in Oregon.",
+        "startDate":"2017-04-28",
+        "endDate":"2015-10-30",
+        "description": [
+            "The largest and longest continuous running tournament in Oregon."
+        ],
+        "linkText":"more"
+    }
+]

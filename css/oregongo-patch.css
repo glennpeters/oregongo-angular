@@ -1,0 +1,159 @@
+/* Patch Styles for Oregon Go - Minify and merge with main styles */
+
+body.ngLoaded {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.body-content {
+    /* TODO: Narrow on smaller devices */
+    padding: 0 2em;
+}
+
+.body-view > .ng-scope {
+    /* Extra padding for the bottom */
+    margin-bottom: 55px;
+}
+
+.go-bucket h1, .go-bucket h2, .go-bucket h3 {
+    text-transform: none;
+}
+
+.loading-wrapper {
+    postion: relative;
+}
+
+.loading-screen {
+    width: 100%;
+    height: 1000px;
+    postion: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255,255,255,0.7);
+    margin: auto;
+    padding: 4em;
+}
+
+.loading-screen h1 {
+    color: #000;
+    font-size: 400%;
+}
+
+.clubs .meeting {
+	/* top | right | bottom | left */
+	margin: 0.4em 0.4em 1em 1.6em;
+}
+
+.clubs .meeting h4 {
+	font-weight: 700;
+	margin: 0.1em;
+}
+
+.page-quote {
+    font-style: italic;
+    font-size: 120%;
+}
+
+.upcoming h2 {
+    background-color: initial;
+    font-size: 120%;
+}
+
+.upcoming .timeText {
+    background-color: initial;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.upcoming p {
+    margin-top: 0.3em;
+    margin-bottom: 0;
+}
+
+.upcoming p.description {
+    /*text-indent: 0.5em;*/
+}
+
+.upcoming p.linkText {
+    margin-top: 0.15em;
+}
+
+.single-event .event-date {
+	font-style: italic;
+}
+
+.meeting .name {
+    font-weight: bold;
+}
+
+.meeting .time {
+    font-style: italic;
+}
+
+.contact {
+    margin: 1.2em 2em 2em 0;
+    line-height: 1.6;
+}
+
+.contact .name {
+    margin: 0 0 0.18em;
+}
+
+.contact .title,
+.contact .phone,
+.contact .note,
+.contact .email {
+    margin-left: 2em;
+}
+
+.contact .title {
+    font-style: italic;
+}
+
+.contact .note {
+    margin-top: 0.1em;
+}
+
+.faq {
+    margin: 0 2em 0;
+    line-height: 1.6;
+}
+
+.faq + .faq {
+    padding-top: 1em;
+    border-top: black dotted 1px;
+    margin-top: 1em;
+}
+
+.faq .question {
+    font-style: italic;
+    font-weight: 600;
+    /*text-indent: 1em hanging;*/
+}
+
+.faq .answer {
+    /*text-indent: 1em hanging;*/
+}
+
+.event .event-date {
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* Small devices (tablets, 768px and up) */
+/* @screen-sm-min */
+@media (max-width: 768px) {
+    body {
+        background: #000;
+    }
+
+    .body-content {
+        padding: 0em;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+/*@media (min-width: @screen-md-min) { ... }*/
+
+/* Large devices (large desktops, 1200px and up) */
+/*@media (min-width: @screen-lg-min) { ... }*/
